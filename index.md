@@ -1,16 +1,36 @@
 ---
 layout: page
-title: Florian Hötzinger's Blog
-tagline: complications in .NET
+title: hoetz blog
+tagline: Florian Hötzinger's blog
 ---
 {% include JB/setup %}
 
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% for post in paginator.posts %}
+
+
+   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+   <div class="date">{{post.date | date: "%A, %d %B %Y %H:%M:%S %Z" }}</div>
+   <div>
+    {{ post.content }}
+   </div>
+   <hr>
+{% endfor %}
+
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="/page{{paginator.previous_page}}" class="next">Next</a>
+  {% else %}
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="previous ">Previous</a>
+  {% else %}
+  {% endif %}
+</div>
+<div class="page_number ">Page {{paginator.page}} of {{paginator.total_pages}}</div>
+
 
 
 
