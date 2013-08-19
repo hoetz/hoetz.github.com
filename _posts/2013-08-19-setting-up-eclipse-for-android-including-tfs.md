@@ -10,10 +10,10 @@ Since I inherited an Android project, I had to do a clean install of the develop
 
 Here are my notes:
 
-- The latest Development Tools for Android (including Eclipse) can be found here: http://developer.android.com/sdk/index.html
-- To enable Android debugging on physical devices, download the USB driver for your cellphone, see http://developer.android.com/tools/device.html
+- The latest Development Tools for Android (including Eclipse) can be found [here](http://developer.android.com/sdk/index.html)
+- To enable Android debugging on physical devices, download the USB driver for your cellphone, look [here](http://developer.android.com/tools/device.html)
 - The driver for Samsung devices can be obtained via the samsung kies software
-- Download and install the Team Foundation Server Plug In with this guide: http://msdn.microsoft.com/en-us/library/hh301122.aspx
+- Download and install the Team Foundation Server Plug In with [this guide](http://msdn.microsoft.com/en-us/library/hh301122.aspx)
 - In Eclipse go to Window -> Preferences -> Team -> Team Foundation Server
 - Check “accept untrusted SSL certificates” (couldn’t get it to work otherwise)
 - In Eclipse go to Window -> Open Perspective -> Other -> Team Foundation Server
