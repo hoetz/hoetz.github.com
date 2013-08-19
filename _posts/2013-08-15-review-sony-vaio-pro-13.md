@@ -1,7 +1,6 @@
 ---
 layout: post
 category : review
-date: 2013-08-19 12:00 UTC
 tagline: 
 tags : [review, ultrabook]
 ---
