@@ -1,12 +1,11 @@
 ---
 layout: post
 category : android
-tagline: "Setting up Eclipse for Android including TFS"
+tagline: 
 tags : [android, tfs, eclipse, install]
 ---
 {% include JB/setup %}
 
-##Setting up Eclipse for Android including TFS
 Since I inherited an Android project, I had to do a clean install of the development tools on my Windows 8 machine including the Team Foundation Server Plugin for Eclipse.
 
 Here are my notes:
