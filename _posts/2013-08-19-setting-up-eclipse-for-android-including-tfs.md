@@ -1,6 +1,7 @@
 ---
 layout: post
 category : android
+date: 2013-08-19 12:00 UTC
 tagline: 
 tags : [android, tfs, eclipse, install]
 ---
