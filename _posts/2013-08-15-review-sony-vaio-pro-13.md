@@ -15,7 +15,7 @@ Configuration reviewed:
 - 2nd extended battery
 - Touch Screen
 
-![vaioproimage](../img/vaiopro13.jpg)
+![vaioproimage](http://hoetz.github.io/img/vaiopro13.jpg)
 
 Ever since the Haswell chipset was first announced, I was intrigued by the battery-life-to-performance ratio. Who wouldn't like the idea of coding all day long without having to dig up the power cord? Since I did some iOS programming on a Macbook Air recently, I had some high expectations for a solid Windows Ultrabook. The Vaio Pro 13 claims to be the lightest device of its class while also packing some serious firepower. Let's see how it's holding up.
 
