@@ -10,7 +10,7 @@ tagline: Florian Hötzinger's blog
 
 
    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-   <div class="date">{{post.date | date: "%A, %d %B %Y %H:%M:%S %Z" }}</div>
+   <div class="date push10bottom">{{post.date | date: "%A, %d %B %Y %H:%M:%S %Z" }}</div>
    <div>
     {{ post.content }}
    </div>
@@ -30,7 +30,7 @@ tagline: Florian Hötzinger's blog
   {% endif %}
 </div>
 <div class="page_number ">Page {{paginator.page}} of {{paginator.total_pages}}</div>
-<div><small>v0.2.0</small></div>
+<div><small>v0.3.0</small></div>
 
 
 
