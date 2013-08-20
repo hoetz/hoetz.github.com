@@ -72,4 +72,9 @@ body {
 .push10bottom {
 margin-bottom:10px;
 }
+
+.span14 img {
+width:100%;
+height:100%;
+}
 	
