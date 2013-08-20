@@ -1,7 +1,8 @@
 ---
 layout: post
 category : android
-tagline: 
+tagline:
+date: 2013-08-19 12:30:00 UTC  
 tags : [android, tfs, eclipse, install]
 ---
 {% include JB/setup %}

@@ -1,7 +1,8 @@
 ---
 layout: post
 category : review
-tagline: 
+tagline:
+date: 2013-08-15 12:30:00 UTC 
 tags : [review, ultrabook]
 ---
 {% include JB/setup %}
