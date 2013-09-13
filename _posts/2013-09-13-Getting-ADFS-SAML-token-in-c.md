@@ -25,9 +25,9 @@ Here's what I'd like to achieve:
 Requesting the token is actually pretty easy once you use a little WCF magic (and know your ADFS endpoint).
 Here is the code for my TokenProvider. Please note that I use the excellent "Thinktecture.IdentityModel" nuget package.
 
-
-	public class ADFSUsernameMixedTokenProvider
-    {
+```
+public class ADFSUsernameMixedTokenProvider
+{
         private readonly Uri ADFSUserNameMixedEndpoint;
 
         /// <summary>
@@ -61,7 +61,7 @@ Here is the code for my TokenProvider. Please note that I use the excellent "Thi
 
             return genericToken;
         }
-    }
-
+}
+```
 
 In the next post I will explain how to convert this token to JWT format.
