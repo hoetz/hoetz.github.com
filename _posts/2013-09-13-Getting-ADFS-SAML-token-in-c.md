@@ -26,7 +26,7 @@ Requesting the token is actually pretty easy once you use a little WCF magic (an
 Here is the code for my TokenProvider. Please note that I use the excellent "Thinktecture.IdentityModel" nuget package.
 
 
-public class ADFSUsernameMixedTokenProvider
+	public class ADFSUsernameMixedTokenProvider
     {
         private readonly Uri ADFSUserNameMixedEndpoint;
 
