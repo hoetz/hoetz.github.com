@@ -10,6 +10,7 @@ title: Upgrading an ASP.NET 5 MVC app from beta4 to beta5
 
 ASP.NET 5 Beta 5 is [out now](http://blogs.msdn.com/b/webdev/archive/2015/06/30/asp-net-5-beta5-now-available.aspx), so go get it.
 The only thing that really broke for me was my custom configuration source setup.
+
 	//beta4
 	public Startup(IHostingEnvironment env)
     {
