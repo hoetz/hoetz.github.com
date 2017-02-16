@@ -8,9 +8,6 @@ title: How to get away with enterprise software development
 ---
 {% include JB/setup %}
 
-How to get away with enterprise software development
-====================================================
-
 0 - YAGNI
 ---------
 
@@ -40,7 +37,8 @@ begins.
 -------------------
 
 [David Fowler](https://twitter.com/davidfowl/status/830574942320152578) recently
-tweeted \>As a senior engineer, you have to decide if it's better to do things
+tweeted
+>As a senior engineer, you have to decide if it's better to do things
 yourself or help junior developers grow
 
 which brings me to the often shunned topic of knowledge management. Transferring
