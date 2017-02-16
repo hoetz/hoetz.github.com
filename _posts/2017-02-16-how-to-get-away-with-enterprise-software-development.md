@@ -56,7 +56,7 @@ stakeholders but I also like to apply it coding. It turns out that Visual Studio
 has [pretty good
 support](https://msdn.microsoft.com/en-us/library/dn872466.aspx) for sketching
 out the flow of your program without implementing the actual methods right away
-- a great way to do [TDD](https://www.pluralsight.com/courses/outside-in-tdd),
+-a great way to do [TDD](https://www.pluralsight.com/courses/outside-in-tdd),
 by the way. When you get down to the implementation it is prudent to adhere to
 design principles like
 [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) or
@@ -66,10 +66,13 @@ lines of code probably have a complexity problem and that the same method
 shouldn't appear five times across your code base. But, for example, getting
 inheritance or interfaces "right" is usually a tad more difficult.
 
-I have found these basic tips pretty helpful: - keep your units of code small
-and focused - work your way from outside (i.e. user interface) down to the
-bottom layer - separate storage access code from your business logic and your
-business logic from the user interface - (integration- / unit-) test the hell
+I have found these basic tips pretty helpful:
+- keep your units of code small and focused
+- work your way from outside (i.e. user interface) down to the
+bottom layer 
+- separate storage access code from your business logic and your
+business logic from the user interface 
+- (integration- / unit-) test the hell
 out of everything you write
 
 In the end, only writing code will help you improve writing even more code.
